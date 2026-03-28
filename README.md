@@ -26,7 +26,7 @@ Supports **paper trading mode** (no API keys needed) and **live Binance Testnet 
 
 ## Setup
 ```bash
-git clone https://github.com/YOURUSERNAME/trading_bot.git
+git clone https://github.com/Yeshajagad/trading_bot.git
 cd trading_bot
 python -m venv venv
 source venv/bin/activate      # Windows: venv\Scripts\activate
