@@ -1,0 +1,28 @@
+[2026-03-28 11:28:11] INFO     | trading_bot.validators | Validation passed — BUY MARKET BTCUSDT qty=0.01
+[2026-03-28 11:28:11] INFO     | trading_bot.exchange | Paper trading mode active — no real funds, no API calls
+[2026-03-28 11:28:11] INFO     | trading_bot.exchange | Supported symbols: ['BTCUSDT', 'ETHUSDT', 'BNBUSDT', 'SOLUSDT', 'XRPUSDT', 'DOGEUSDT', 'ADAUSDT']
+[2026-03-28 11:28:11] INFO     | trading_bot.client | Client mode: PAPER — mock exchange active
+[2026-03-28 11:29:35] INFO     | trading_bot.orders | OrderManager — placing BUY MARKET BTCUSDT qty=0.01
+[2026-03-28 11:29:35] INFO     | trading_bot.exchange | Simulating BUY MARKET BTCUSDT | qty=0.01 | market_price=67400.7103
+[2026-03-28 11:29:35] INFO     | trading_bot.exchange | Order simulated — id=845153617 status=FILLED avgPrice=67400.7103 executedQty=0.01
+[2026-03-28 11:29:59] INFO     | trading_bot.validators | Validation passed — SELL MARKET BTCUSDT qty=0.01
+[2026-03-28 11:29:59] INFO     | trading_bot.exchange | Paper trading mode active — no real funds, no API calls
+[2026-03-28 11:29:59] INFO     | trading_bot.exchange | Supported symbols: ['BTCUSDT', 'ETHUSDT', 'BNBUSDT', 'SOLUSDT', 'XRPUSDT', 'DOGEUSDT', 'ADAUSDT']
+[2026-03-28 11:29:59] INFO     | trading_bot.client | Client mode: PAPER — mock exchange active
+[2026-03-28 11:30:00] INFO     | trading_bot.orders | OrderManager — placing SELL MARKET BTCUSDT qty=0.01
+[2026-03-28 11:30:00] INFO     | trading_bot.exchange | Simulating SELL MARKET BTCUSDT | qty=0.01 | market_price=67399.9747
+[2026-03-28 11:30:00] INFO     | trading_bot.exchange | Order simulated — id=551118721 status=FILLED avgPrice=67399.9747 executedQty=0.01
+[2026-03-28 11:30:09] INFO     | trading_bot.validators | Validation passed — BUY LIMIT ETHUSDT qty=0.1
+[2026-03-28 11:30:09] INFO     | trading_bot.exchange | Paper trading mode active — no real funds, no API calls
+[2026-03-28 11:30:09] INFO     | trading_bot.exchange | Supported symbols: ['BTCUSDT', 'ETHUSDT', 'BNBUSDT', 'SOLUSDT', 'XRPUSDT', 'DOGEUSDT', 'ADAUSDT']
+[2026-03-28 11:30:09] INFO     | trading_bot.client | Client mode: PAPER — mock exchange active
+[2026-03-28 11:30:16] INFO     | trading_bot.orders | OrderManager — placing BUY LIMIT ETHUSDT qty=0.1
+[2026-03-28 11:30:16] INFO     | trading_bot.exchange | Simulating BUY LIMIT ETHUSDT | qty=0.1 | market_price=3518.7428
+[2026-03-28 11:30:16] INFO     | trading_bot.exchange | Order simulated — id=298047307 status=NEW avgPrice=0.0 executedQty=0.0
+[2026-03-28 11:30:19] INFO     | trading_bot.validators | Validation passed — SELL LIMIT ETHUSDT qty=0.1
+[2026-03-28 11:30:19] INFO     | trading_bot.exchange | Paper trading mode active — no real funds, no API calls
+[2026-03-28 11:30:19] INFO     | trading_bot.exchange | Supported symbols: ['BTCUSDT', 'ETHUSDT', 'BNBUSDT', 'SOLUSDT', 'XRPUSDT', 'DOGEUSDT', 'ADAUSDT']
+[2026-03-28 11:30:19] INFO     | trading_bot.client | Client mode: PAPER — mock exchange active
+[2026-03-28 11:30:20] INFO     | trading_bot.orders | OrderManager — placing SELL LIMIT ETHUSDT qty=0.1
+[2026-03-28 11:30:20] INFO     | trading_bot.exchange | Simulating SELL LIMIT ETHUSDT | qty=0.1 | market_price=3519.9444
+[2026-03-28 11:30:20] INFO     | trading_bot.exchange | Order simulated — id=897530785 status=NEW avgPrice=0.0 executedQty=0.0
